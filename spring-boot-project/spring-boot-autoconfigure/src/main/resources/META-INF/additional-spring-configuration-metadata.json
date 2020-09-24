@@ -754,6 +754,11 @@
       "defaultValue": "embedded"
     },
     {
+      "name": "spring.datasource.dbcp2.connection-properties",
+      "type": "java.lang.String",
+      "sourceType": "org.apache.commons.dbcp2.BasicDataSource"
+    },
+    {
       "name": "spring.datasource.jmx-enabled",
       "type": "java.lang.Boolean",
       "description": "Whether to enable JMX support (if provided by the underlying pool).",
